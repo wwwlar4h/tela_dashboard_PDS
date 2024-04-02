@@ -1,0 +1,16 @@
+C:\Users\2022102020030\source\repos\tela_adm\bin\Debug\tela_adm.exe.config
+C:\Users\2022102020030\source\repos\tela_adm\bin\Debug\tela_adm.exe
+C:\Users\2022102020030\source\repos\tela_adm\bin\Debug\tela_adm.pdb
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\tela_adm.csproj.AssemblyReference.cache
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\MainWindow.g.cs
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\App.g.cs
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\tela_adm_MarkupCompile.cache
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\tela_adm_MarkupCompile.lref
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\MainWindow.baml
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\tela_adm.g.resources
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\tela_adm.Properties.Resources.resources
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\tela_adm.csproj.GenerateResource.cache
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\tela_adm.csproj.CoreCompileInputs.cache
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\tela_adm.exe
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\tela_adm.pdb
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\tela_adm_Content.g.cs
