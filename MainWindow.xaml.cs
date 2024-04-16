@@ -38,6 +38,22 @@ namespace tela_adm
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
+            framePage.Source = new Uri("/escolas.xaml", UriKind.Relative);
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            framePage.Source = new Uri("/Cursos.xaml", UriKind.Relative);
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            framePage.Source = new Uri("/Turmas.xaml", UriKind.Relative);
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            framePage.Source = new Uri("/alunos.xaml", UriKind.Relative);
         }
     }
 }

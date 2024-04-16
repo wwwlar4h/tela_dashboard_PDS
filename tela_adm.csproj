@@ -55,9 +55,36 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Alunos.xaml.cs">
+      <DependentUpon>Alunos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cursos.xaml.cs">
+      <DependentUpon>Cursos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Escolas.xaml.cs">
+      <DependentUpon>Escolas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TelaLogin.xaml.cs">
+      <DependentUpon>TelaLogin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Turmas.xaml.cs">
+      <DependentUpon>Turmas.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Window1.xaml.cs">
       <DependentUpon>Window1.xaml</DependentUpon>
     </Compile>
+    <Page Include="Alunos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cursos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Escolas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -70,6 +97,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="TelaLogin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Turmas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Window1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -103,8 +138,13 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="ima\imagem2.png" />
+    <Resource Include="ima\imagem.jpg" />
+    <Resource Include="ima\Imaa.jpg" />
     <Content Include="ima\inicio.svg" />
     <Content Include="ima\user.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ima\ima\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -9,89 +9,47 @@
     <Grid>
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="30*"/>
-            <ColumnDefinition Width="107*"/>
-            <ColumnDefinition Width="82*"/>
-            <ColumnDefinition Width="601*"/>
+          
+            <ColumnDefinition Width="0.3*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-
         </Grid.RowDefinitions>
 
 
-        <Grid Grid.RowSpan="3" Background="#eaebfd" Grid.ColumnSpan="2">
+        <Grid Background="#d6d8f9" Grid.ColumnSpan="1">
             <Grid.RowDefinitions>
                 <RowDefinition Height="25"/>
                 <RowDefinition Height="4*"/>
                 <RowDefinition Height="1.4*"/>
             </Grid.RowDefinitions>
 
-            <Border Background="#bec4ff"/>
-            <TextBlock Text="Menu" FontFamily="Frank Ruhl Hofshi" FontSize="18" 
-                       HorizontalAlignment="Center" Foreground="#FF2A3F80" />
 
 
-            <StackPanel Grid.Row="1" VerticalAlignment="center" Margin="20">
-                <Button Grid.Row="1" Content="Escolas" Padding="15" BorderBrush="Transparent" Background="#ececf6" FontFamily="Frank Ruhl Hofshi" FontSize="17" Foreground="#FF2A3F80" HorizontalAlignment="Center" Width="110" Click="Button_Click_2" />
-                <Button Grid.Row="1" Content="Cursos" Padding="15" BorderBrush="Transparent" Background="#ececf6" FontFamily="Frank Ruhl Hofshi" FontSize="17" Foreground="#FF2A3F80" HorizontalAlignment="Center" Width="110" />
-                <Button Grid.Row="1" Content="Turmas" Padding="15" BorderBrush="Transparent" Background="#ececf6" FontFamily="Frank Ruhl Hofshi" FontSize="17" Foreground="#FF2A3F80" HorizontalAlignment="Center" Width="110" />
-                <Button Grid.Row="1" Content="Alunos" Padding="15" BorderBrush="Transparent" Background="#ececf6" FontFamily="Frank Ruhl Hofshi" FontSize="17" Foreground="#FF2A3F80" HorizontalAlignment="Center" Width="110" />
-                <Button Grid.Row="1" Content="Relatórios" Padding="15" BorderBrush="Transparent" Background="#ececf6" FontFamily="Frank Ruhl Hofshi" FontSize="14" Foreground="#FF2A3F80" HorizontalAlignment="Center" Width="110" />
-            </StackPanel>
 
         </Grid>
+        <Border Background="White" Grid.Column="1"/>
+            <TextBlock Text="Menu" FontFamily="Frank Ruhl Hofshi" FontSize="18" 
+                       HorizontalAlignment="Center" Foreground="#FF2A3F80" />
+            <StackPanel Grid.Row="1" VerticalAlignment="center" Margin="20" Grid.Column="0">
+            <Button Grid.Row="1" Content="Escolas" Padding="10" Margin="0 0 0 10" Background="#c2c5f6"  BorderBrush="Transparent" FontFamily="Frank Ruhl Hofshi" FontSize="17" Foreground="#FF2A3F80" HorizontalAlignment="Center" Height="50" Width="110" Click="Button_Click_2" />
+            <Button Grid.Row="1" Content="Cursos" Padding="10" Margin="0 0 0 10" Background="#c2c5f6" BorderBrush="Transparent"  FontFamily="Frank Ruhl Hofshi" FontSize="17" Foreground="#FF2A3F80" HorizontalAlignment="Center" Height="50" Width="110" Click="Button_Click_3" />
+            <Button Grid.Row="1" Content="Turmas" Padding="10" Margin="0 0 0 10" Background="#c2c5f6" BorderBrush="Transparent"  FontFamily="Frank Ruhl Hofshi" FontSize="17" Foreground="#FF2A3F80" HorizontalAlignment="Center" Height="50" Width="110" Click="Button_Click_4" />
+            <Button Grid.Row="1" Content="Alunos" Padding="10" Margin="0 0 0 10" Background="#c2c5f6" BorderBrush="Transparent"  FontFamily="Frank Ruhl Hofshi" FontSize="17" Foreground="#FF2A3F80" HorizontalAlignment="Center" Height="50" Width="110" Click="Button_Click_5" />
+            </StackPanel>
 
 
-        <WrapPanel Grid.Column="2" Height="168" VerticalAlignment="Center" Grid.ColumnSpan="2">
+        <WrapPanel Grid.Column="1" HorizontalAlignment="Left" Grid.ColumnSpan="3" Margin="130,0,0,0" Width="691">
 
             <Grid>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="500"/>
+                    <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
             </Grid>
-
- 
-            <Button Grid.Column="1" Content="Cursos" Padding="6" BorderBrush="Transparent"
-                    HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="30 -60" Background="#bec4ff" FontSize="17" FontFamily="Frank Ruhl Hofshi" Height="40" Width="200" RenderTransformOrigin="-0.076,0.667" Click="Button_Click" Foreground="#FF2A3F80" >
-                <Button.Resources>
-                    <Style TargetType="{x:Type Border}">
-                        <Setter Property="CornerRadius" Value="10"/>
-                    </Style>
-                </Button.Resources>
-            </Button>
-
-            <Button Grid.Column="1" Content="Editais" Padding="6" BorderBrush="Transparent"
-                    HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10 -60" Background="#bec4ff" FontSize="17" FontFamily="Frank Ruhl Hofshi" Height="42" Width="200" Foreground="#FF2A3F80">
-                <Button.Resources>
-                    <Style TargetType="{x:Type Border}">
-                        <Setter Property="CornerRadius" Value="10"/>
-                    </Style>
-                </Button.Resources>
-            </Button>
-
-            <Button Grid.Column="1" Content="Ensinos" Padding="6" BorderBrush="Transparent"
-                    HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="30 -120" Background="#bec4ff" FontSize="17" FontFamily="Frank Ruhl Hofshi" Height="42" Width="200" RenderTransformOrigin="0.522,1.773" Foreground="#FF2A3F80" Click="Button_Click_1">
-                <Button.Resources>
-                    <Style TargetType="{x:Type Border}">
-                        <Setter Property="CornerRadius" Value="10"/>
-                    </Style>
-                </Button.Resources>
-            </Button>
-
-            <Button Grid.Column="1" Content="Concursos" Padding="6" BorderBrush="Transparent"
-                   HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10 -120" Background="#bec4ff" FontSize="17" FontFamily="Frank Ruhl Hofshi" Height="42" Width="200" RenderTransformOrigin="0.522,1.773" Foreground="#FF2A3F80">
-                <Button.Resources>
-                    <Style TargetType="{x:Type Border}">
-                        <Setter Property="CornerRadius" Value="10"/>
-                    </Style>
-                </Button.Resources>
-            </Button>
-
-            <Image Source="/ima/imagem2.png" Margin="470 6 0 0" Height="180" Width="220"/>
+            
+            <Image Source="/ima/imagem2.png" HorizontalAlignment="Center" VerticalAlignment="Center" Height="400" Margin="-20 40 0 0"  Width="420"/>
 
         </WrapPanel>
 
@@ -102,8 +60,7 @@
         </WrapPanel>-->
 
 
-
-
+        <Frame x:Name="framePage" Grid.Column="2" Margin="0,0,0,0"/>
 
 
     </Grid>

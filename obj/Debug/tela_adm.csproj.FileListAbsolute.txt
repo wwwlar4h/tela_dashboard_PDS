@@ -14,3 +14,15 @@ C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\tela_adm.csproj.CoreCompi
 C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\tela_adm.exe
 C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\tela_adm.pdb
 C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\tela_adm_Content.g.cs
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\Window1.g.cs
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\Window1.baml
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\Alunos.g.cs
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\Cursos.g.cs
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\Escolas.g.cs
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\TelaLogin.g.cs
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\Alunos.baml
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\Cursos.baml
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\Escolas.baml
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\TelaLogin.baml
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\Turmas.g.cs
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\Turmas.baml
