@@ -16,18 +16,13 @@ using System.Windows.Shapes;
 namespace tela_adm
 {
     /// <summary>
-    /// Interação lógica para Escolas.xam
+    /// Interação lógica para Professores.xam
     /// </summary>
-    public partial class Escolas : Page
+    public partial class Professores : Page
     {
-        public Escolas()
+        public Professores()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-           
         }
     }
 }

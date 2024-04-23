@@ -53,7 +53,17 @@ namespace tela_adm
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
-            framePage.Source = new Uri("/alunos.xaml", UriKind.Relative);
+            framePage.Source = new Uri("/Professores.xaml", UriKind.Relative);
+        }
+
+        private void framePage_Navigated(object sender, NavigationEventArgs e)
+        {
+            
+        }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            framePage.Source = new Uri("/Alunos.xaml", UriKind.Relative);
         }
     }
 }

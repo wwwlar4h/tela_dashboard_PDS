@@ -5,7 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tela_adm"
         mc:Ignorable="d"
-        Title="TelaLogin" Height="450" Width="800">
+        Title="TelaLogin" Height="450" Width="800"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        WindowState="Maximized">
     <Grid>
         
         <Grid.ColumnDefinitions>
@@ -19,27 +22,22 @@
         </Grid.RowDefinitions>
 
         <Border Background="#000c40" Grid.RowSpan="2"/>
-        <Image Source="./ima/Imaa.jpg" Margin="69,44,69,82" Grid.RowSpan="2" />
-
+        <Image Source="./ima/Imaa.jpg" Margin="50 50 50 50" Grid.RowSpan="2" />
 
         <Label Content="The University Of British Columbia"  FontFamily="Frank Ruhl Hofshi"
-            FontSize="23" Margin="10,2,0,31" Grid.Column="1" />
+            FontSize="40" Grid.Column="1" Padding="30" VerticalAlignment="Top" HorizontalAlignment="Center"/>
 
-
-        <StackPanel Grid.Column="1" Margin="70,70,70,70" Grid.RowSpan="2">
-
-            <TextBlock Text ="Acesso ao Sistema" FontFamily="Frank Ruhl Hofshi" 
-            FontSize="24" Width="205" />
+        <StackPanel Grid.Column="1" Margin="70,70,70,70" Grid.RowSpan="2"  VerticalAlignment="center" HorizontalAlignment="Center">
 
             <Label Content="Usuário" 
-            FontSize="16" Margin="0.2" FontFamily="Frank Ruhl Hofshi"  />
+            FontSize="20" Margin="0 0 0 -7" FontFamily="Frank Ruhl Hofshi"  />
             <TextBox Background="White" 
-            Height="25" Margin="0.2" FontSize="14" />
+            Height="25" Width="400" Margin="0.2" FontSize="17" Padding="2"/>
 
             <Label Content="Senha"  
-            FontSize="16" Margin="0.2" FontFamily="Frank Ruhl Hofshi"  />
+            FontSize="20" Margin="0 20 0 -7" FontFamily="Frank Ruhl Hofshi"  />
             <TextBox Background="White"
-            Height="25" Margin="0.2" FontSize="14"  />
+            Height="30" Width="400" Margin="0.2" FontSize="17" Padding="2"/>
 
 
             <Grid>
@@ -50,8 +48,10 @@
 
             </Grid>
 
-            <Button Grid.Column="0" Content="Acesse" Padding="5" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10 -50" Background="LightSteelBlue"  FontFamily="Frank Ruhl Hofshi" Height="30" Width="78" Click="Button_Click" />
-            <Button Grid.Column="1" Content="Cancelar" Padding="5" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10 -50" Background="LightSteelBlue"  FontFamily="Frank Ruhl Hofshi" Height="30" Width="78" Click="Button_Click_1"/>
+            <Button Grid.Column="0" Content="Acesse" Padding="5" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin=" 60 -60" Background="#9fd58e"  
+                    FontFamily="Frank Ruhl Hofshi" FontSize="15" Height="33" Width="85" Click="Button_Click" />
+            <Button Grid.Column="1" Content="Cancelar" Padding="5" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="60 -60" Background="LightCoral" 
+                    FontFamily="Frank Ruhl Hofshi" FontSize="15" Height="33" Width="85" Click="Button_Click_1"/>
         </StackPanel>
     </Grid>
 </Window>

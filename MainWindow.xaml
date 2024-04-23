@@ -5,11 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tela_adm"
         mc:Ignorable="d"
-        Title="tela_adm" Height="519" Width="820">
+        Title="tela_adm" Height="519" Width="820"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        WindowState="Maximized"
+        >
     <Grid>
 
         <Grid.ColumnDefinitions>
-          
             <ColumnDefinition Width="0.3*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
@@ -26,42 +29,28 @@
                 <RowDefinition Height="1.4*"/>
             </Grid.RowDefinitions>
 
-
-
-
         </Grid>
+        
         <Border Background="White" Grid.Column="1"/>
-            <TextBlock Text="Menu" FontFamily="Frank Ruhl Hofshi" FontSize="18" 
-                       HorizontalAlignment="Center" Foreground="#FF2A3F80" />
-            <StackPanel Grid.Row="1" VerticalAlignment="center" Margin="20" Grid.Column="0">
-            <Button Grid.Row="1" Content="Escolas" Padding="10" Margin="0 0 0 10" Background="#c2c5f6"  BorderBrush="Transparent" FontFamily="Frank Ruhl Hofshi" FontSize="17" Foreground="#FF2A3F80" HorizontalAlignment="Center" Height="50" Width="110" Click="Button_Click_2" />
-            <Button Grid.Row="1" Content="Cursos" Padding="10" Margin="0 0 0 10" Background="#c2c5f6" BorderBrush="Transparent"  FontFamily="Frank Ruhl Hofshi" FontSize="17" Foreground="#FF2A3F80" HorizontalAlignment="Center" Height="50" Width="110" Click="Button_Click_3" />
-            <Button Grid.Row="1" Content="Turmas" Padding="10" Margin="0 0 0 10" Background="#c2c5f6" BorderBrush="Transparent"  FontFamily="Frank Ruhl Hofshi" FontSize="17" Foreground="#FF2A3F80" HorizontalAlignment="Center" Height="50" Width="110" Click="Button_Click_4" />
-            <Button Grid.Row="1" Content="Alunos" Padding="10" Margin="0 0 0 10" Background="#c2c5f6" BorderBrush="Transparent"  FontFamily="Frank Ruhl Hofshi" FontSize="17" Foreground="#FF2A3F80" HorizontalAlignment="Center" Height="50" Width="110" Click="Button_Click_5" />
-            </StackPanel>
+            <TextBlock Text="Menu" FontFamily="Frank Ruhl Hofshi" FontSize="19" 
+                       VerticalAlignment="Top" HorizontalAlignment="Center"  Foreground="#FF2A3F80" />
 
+        <StackPanel Grid.Row="1" VerticalAlignment="center" Margin="20" Grid.Column="0">
+            <Button Grid.Row="1" Content="Escolas" Padding="10" Margin="0 0 0 10" Background="#c2c5f6"  BorderBrush="Transparent" FontFamily="Frank Ruhl Hofshi" FontSize="19" Foreground="#FF2A3F80" HorizontalAlignment="Center" Height="50" Width="140" Click="Button_Click_2" />
+            <Button Grid.Row="1" Content="Cursos" Padding="10" Margin="0 0 0 10" Background="#c2c5f6" BorderBrush="Transparent"  FontFamily="Frank Ruhl Hofshi" FontSize="19" Foreground="#FF2A3F80" HorizontalAlignment="Center" Height="50" Width="140" Click="Button_Click_3" />
+            <Button Grid.Row="1" Content="Turmas" Padding="10" Margin="0 0 0 10" Background="#c2c5f6" BorderBrush="Transparent"  FontFamily="Frank Ruhl Hofshi" FontSize="19" Foreground="#FF2A3F80" HorizontalAlignment="Center" Height="50" Width="140" Click="Button_Click_4" />
+            <Button Grid.Row="1" Content="Professores" Padding="10" Margin="0 0 0 10" Background="#c2c5f6" BorderBrush="Transparent"  FontFamily="Frank Ruhl Hofshi" FontSize="19" Foreground="#FF2A3F80" HorizontalAlignment="Center" Height="50" Width="140" Click="Button_Click_5" />
+            <Button Grid.Row="1" Content="Alunos" Padding="10" Margin="0 0 0 10" Background="#c2c5f6" BorderBrush="Transparent"  FontFamily="Frank Ruhl Hofshi" FontSize="19" Foreground="#FF2A3F80" HorizontalAlignment="Center" Height="50" Width="140" Click="Button_Click_6" />
+        </StackPanel>
 
-        <WrapPanel Grid.Column="1" HorizontalAlignment="Left" Grid.ColumnSpan="3" Margin="130,0,0,0" Width="691">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+ 
 
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-            </Grid>
-            
-            <Image Source="/ima/imagem2.png" HorizontalAlignment="Center" VerticalAlignment="Center" Height="400" Margin="-20 40 0 0"  Width="420"/>
-
-        </WrapPanel>
-
-
-
-        <!--<WrapPanel Grid.Row="1" >
-            <Button  Content="Cursos" Padding="6" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10 -50" Background="#7fb2cf" FontSize="17" FontFamily="Frank Ruhl Hofshi" Height="36" Width="200" RenderTransformOrigin="-0.076,0.667" Click="Button_Click" />
-        </WrapPanel>-->
-
-
-        <Frame x:Name="framePage" Grid.Column="2" Margin="0,0,0,0"/>
-
+        <Frame x:Name="framePage" Grid.Column="2" Margin="0,0,0,0" Navigated="framePage_Navigated"/>
 
     </Grid>
 </Window>

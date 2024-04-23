@@ -26,3 +26,5 @@ C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\Escolas.baml
 C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\TelaLogin.baml
 C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\Turmas.g.cs
 C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\Turmas.baml
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\Professores.g.cs
+C:\Users\2022102020030\source\repos\tela_adm\obj\Debug\Professores.baml
